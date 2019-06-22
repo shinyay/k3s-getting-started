@@ -19,6 +19,11 @@ Overview
 $ docker-compose up -d
 ```
 
+```
+$ kubectl --kubeconfig kubeconfig.yaml get node
+$ kubectl --kubeconfig kubeconfig.yaml get pods --all-namespaces
+```
+
 ## Installation
 
 ## Licence
