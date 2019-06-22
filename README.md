@@ -24,6 +24,11 @@ $ kubectl --kubeconfig kubeconfig.yaml get node
 $ kubectl --kubeconfig kubeconfig.yaml get pods --all-namespaces
 ```
 
+```
+$ kubectl --kubeconfig kubeconfig.yaml apply -f ./sample-pod.yml
+kubectl port-forward pod/sample-pod 10080:80
+```
+
 ## Installation
 
 ## Licence
