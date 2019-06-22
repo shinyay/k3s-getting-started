@@ -15,6 +15,10 @@ Overview
 
 ## Usage
 
+```
+$ docker-compose up -d
+```
+
 ## Installation
 
 ## Licence
