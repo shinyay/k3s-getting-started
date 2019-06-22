@@ -1,6 +1,6 @@
-# Name
+# k3s Sample
 
-Overview
+- https://github.com/rancher/k3s
 
 ## Description
 
