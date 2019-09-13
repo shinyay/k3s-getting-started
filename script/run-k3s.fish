@@ -12,7 +12,7 @@ function run_k3s
   set -lq _flag_file
   or set -l _flag_file ../docker-compose.yml
 
-  docker-compose -f $_flag_file up -d
+  docker-compose -f $_flag_file up -d --scale node=3
 end
 
 run_k3s $argv
